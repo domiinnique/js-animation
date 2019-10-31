@@ -1,0 +1,26 @@
+button, input {
+    border-radius: 9%;
+    border: 2px black solid;
+    font-size: 2em;
+    padding: 20px;
+    background-color: antiquewhite;
+    width: 9em;
+}
+
+nav {
+    font-size: 3em;
+}
+
+.userinput {
+display: grid;
+}
+
+.warning {
+    animation: flashing .2s infinite;
+}
+
+@keyframes flashing {
+    50% {
+        background: red;
+    }
+}
